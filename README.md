@@ -12,7 +12,7 @@ RYZEN follows the ERC-20 standard, allowing it to be used with various decentral
 
 ### Minting
 
-The contract owner has the exclusive ability to mint new RYZEN tokens. This feature enables the owner to increase the token supply when needed.
+The contract owner has the exclusive ability to mint new RYZEN tokens into any account. This feature enables the owner to increase the token supply when needed.
 
 ### Burning
 
@@ -25,9 +25,3 @@ RYZEN supports the ERC-2612 permit function, allowing users to approve token tra
 ## Deployment
 
 The RYZEN contract is deployed on the Ethereum mainnet with the initial supply of 10 RYZEN tokens. The contract owner is set to the specified initial owner address.
-
-## Functions
-
-- `mint(address to, uint256 amount)`: Mint new RYZEN tokens. Only the contract owner can invoke this function.
-
-
